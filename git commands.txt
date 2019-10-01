@@ -1,0 +1,13 @@
+git clone https://github.com/sabirhassan/attendance-system-based-on-facial-recognition.git
+
+git status           //shows files which are not update to date accordingly
+
+git add "filename"
+
+git commit -m " your own description bout the commit" 
+
+git push           //files added to github
+
+
+git pull          //fetches the files from the github which are most updated 
+ 
