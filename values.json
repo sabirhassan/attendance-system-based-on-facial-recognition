@@ -1,0 +1,20 @@
+{
+	"values": {
+		"add": {
+			"first": 45852, 
+			"second": 45
+		},
+		"sub": {
+			"first": 4545, 
+			"second": 2774
+		},
+		"multiply": {
+			"first": 12, 
+			"second": 24
+		},
+		"divide": {
+			"first": 85, 
+			"second": 5
+		}
+	}
+}

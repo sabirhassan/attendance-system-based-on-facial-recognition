@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html >
+  <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="custom.css">
+        <script src="js/bootstrap.min.js"></script>
+        <script src="custom.js"></script>
+        
+  </head>
+  <body>
+
+
+
+    <form class="container" onsubmit="return false">
+        <div class="main2">
+                <input class="btn" type="submit" value="Load values"  onclick="filladd()">
+                <br>
+                <input type="number" id="first_add" onkeypress="return isNumberKey(event)">
+                <span class="operator"> + </span> 
+                <input type="number" id="second_add" onkeypress="return isNumberKey(event)">
+                <span class="operator" > = </span>
+                <input type="number" id="add_result" readonly>
+                <br>
+                <input  class="btn" type="submit" value="add" onclick="addnumbers()" >
+
+                
+        </div>
+
+
+        <div class="main2">
+                <input class="btn" type="submit" value="Load values" onclick="fillsub()">
+                <br>
+                <input type="number" id = "first_sub" onkeypress="return isNumberKey(event)">
+                <span class="operator"> - </span> 
+                <input type="number" id="second_sub" onkeypress="return isNumberKey(event)">
+                <span class="operator"> = </span>
+                <input type="number" id="sub_result" readonly>
+                <br>
+                <input  class="btn" type="submit" value="Subtract" onclick="subnumbers()" >
+
+        </div>
+
+        
+        <div class="main2">
+                <input class="btn" type="submit" value="Load values" onclick="fillmultiply()">
+                <br>
+                <input type="number" id="first_multiply" onkeypress="return isNumberKey(event)">
+                <span class="operator"> * </span> 
+                <input type="number" id="second_multiply" onkeypress="return isNumberKey(event)">
+                <span class="operator"> = </span>
+                <input type="number" id="multiply_result" readonly>
+                <br>
+                <input  class="btn" type="submit" value="Multiply" onclick="multiplynumbers()" >
+
+        </div>
+
+
+
+        <div class="main2">
+                <input class="btn" type="submit" value="Load values" onclick="filldivide()">
+                <br>
+                <input type="number" id="first_divide" onkeypress="return isNumberKey(event)">
+                <span class="operator"> / </span> 
+                <input type="number" id="second_divide" onkeypress="return isNumberKey(event)">
+                <span class="operator"> = </span>
+                <input type="number" id="divide_result" readonly>
+                <br>
+                <input  class="btn" type="submit" value="Divide" onclick="dividenumbers()" >
+
+        </div>
+
+
+
+
+</form>
+
+  </body>
+</html>

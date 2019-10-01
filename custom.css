@@ -1,0 +1,30 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: dimgrey;
+}
+
+.main2{
+    margin-top:10px;
+
+
+}
+.input{
+    margin-top:10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.operator{
+    margin-top:10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.btn{
+    background-color: #008CBA;
+    margin-top:5px;
+    margin-bottom:5px
+    
+}
